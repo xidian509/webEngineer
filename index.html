@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Webengineer by xidian509</title>
+    <title>展示建模 by xidian509</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-dark.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -17,7 +17,7 @@
   <body>
 
       <header>
-        <h1>Webengineer</h1>
+        <h1>展示建模</h1>
         <p>web project</p>
       </header>
 
@@ -48,6 +48,30 @@ git add README.md
 git commit -m "first commit"
 git remote add origin <a href="mailto:git@github.com">git@github.com</a>:xidian509/webEngineer.git
 git push -u origin master</p>
+
+<h3>
+<a id="web工程展示建模" class="anchor" href="#web%E5%B7%A5%E7%A8%8B%E5%B1%95%E7%A4%BA%E5%BB%BA%E6%A8%A1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Web工程展示建模</h3>
+
+<p>和传统软件工程一样，Web应用的展示建模主要针对Web应用的用户界面，其不同点在于Web应用的主要表现形式是Web页面。Web页面是Web应用的基础，用户所看到的信息以Web页面通过浏览器展现出来。因此Web应用的展示建模主要是对Web页面进行建模。
+展示建模包括两个方面：一是通过建模页面中的通用元素产生一致的展示概念，并且展示每个页面的组成以及其中包含的字段、文本、图片、表单等内容；二是描述用户界面的交互特性，例如单击某个按钮可以激活应用逻辑的某个功能，同时要考虑提供给用户必要的导航路径、用户访问历史等信息以防止用户迷失在复杂的应用之中。</p>
+
+<p>一、  静态建模
+建模元素可以分为三个层次：表示页面，表示单元，表示元素
+我的静态建模分为三个页面
+1.  login页面：
+用于用户进行登录，功能如下：用户访问login页面，填写用户名、密码并点击登录按钮访问personalPage页面，如果用户没有注册，点击注册按钮，进行注册操作。</p>
+
+<ol>
+<li><p>register页面：
+用于用户注册，功能如下：用户访问register页面，填写注册的用户名，密码，确认密码，并点击提交按钮进行提交。</p></li>
+<li><p>personalPage页面：
+用于用户查看个人信息和阅读他人的微博，功能如下：页面上方：用户可以看到自己的头像、个人信息，并通过设置个人设置按钮修改个人信息，用户还可以发表微博、查看已发表的微博。页面下方:用户可以看到当前微博博主的头像和博文内容，并通过评论、关注、转发等按钮与他人进行交流。</p></li>
+</ol>
+
+<p>二、  动态建模
+展示层的动态方面主要是Web页面的行为，即用户为了完成某
+项任务通过页面和Web之间所进行的交互行为。
+    我的建模如下：用户首先访问login登录页面，在login登录页面中可以进行注册访问register页面，也可以直接登录进入personalPage页面。</p>
       </section>
       <footer>
         <p>Project maintained by <a href="https://github.com/xidian509">xidian509</a></p>
